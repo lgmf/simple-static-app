@@ -1,0 +1,27 @@
+{
+  "name": "simple-static-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server ./public --verbose --no-browser",
+    "start": "serve ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgmf/simple-static-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgmf/simple-static-app/issues"
+  },
+  "homepage": "https://github.com/lgmf/simple-static-app#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
